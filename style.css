@@ -423,3 +423,27 @@ span.fade {
   justify-content: center;
   }
 }
+
+@media screen and (max-width: 400px) {
+  h1 {
+    font-size: 2rem;
+    
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+  }
+  
+  h3 {
+    font-size: 1.3rem;
+  }
+  
+  p {
+    font-size: 1rem;
+  }
+
+  .icons {
+    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  }
+
+}
